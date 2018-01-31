@@ -1,0 +1,14 @@
+﻿<ranta:MetroWindow x:Class="Ranta.Metro.Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ranta.Metro.Test"
+        xmlns:ranta="clr-namespace:Ranta.Metro.Controls;assembly=Ranta.Metro"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Width="525" Height="350" MinWidth="525" MinHeight="350">
+    <Grid>
+        <TextBlock Grid.Row="0">Hello World</TextBlock>
+    </Grid>
+</ranta:MetroWindow>

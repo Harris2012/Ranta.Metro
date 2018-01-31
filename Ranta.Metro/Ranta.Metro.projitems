@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fadd6855-3ef6-4d90-be35-9d3d666f98e0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Ranta.Metro</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\MetroWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\RButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\TextBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\StringBooleanConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\ToLowerConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\ToUpperConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+</Project>

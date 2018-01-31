@@ -1,0 +1,13 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:input="clr-namespace:System.Windows.Input;assembly=PresentationCore">
+
+    <input:RoutedCommand x:Key="MinimizeWindowCommand" />
+    <input:RoutedCommand x:Key="RestoreWindowCommand" />
+    <input:RoutedCommand x:Key="MaximizeWindowCommand" />
+    <input:RoutedCommand x:Key="CloseWindowCommand" />
+
+    <input:RoutedCommand x:Key="ShowSystemMenuCommand" />
+
+</ResourceDictionary>

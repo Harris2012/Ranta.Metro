@@ -1,0 +1,10 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Ranta.Metro.Test">
+
+    <!--<ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Ranta.Metro;component/Themes/Generic.xaml" />
+    </ResourceDictionary.MergedDictionaries>-->
+
+</ResourceDictionary>

@@ -1,0 +1,13 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:Ranta.Metro.Controls"
+    xmlns:converters="clr-namespace:Ranta.Metro.Converters">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Ranta.Metro;component/Themes/MetroWindow.xaml" />
+        <ResourceDictionary Source="/Ranta.Metro;component/Themes/TextBox.xaml" />
+        <ResourceDictionary Source="/Ranta.Metro;component/Themes/RButton.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

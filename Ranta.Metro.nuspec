@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ranta.Metro</id>
+    <version>1.0.0</version>
+    <title>Ranta.Metro</title>
+    <authors>Harris Zhang</authors>
+    <owners>Harris Zhang</owners>
+    <licenseUrl>http://www.ranta.cn</licenseUrl>
+    <projectUrl>http://www.ranta.cn</projectUrl>
+    <iconUrl>http://www.ranta.cn</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Ranta.Metro</description>
+    <releaseNotes>Ranta.Metro</releaseNotes>
+    <copyright>Copyright Harris Zhang 2016</copyright>
+    <tags>Ranta Metro</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework="net40" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework="net40" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework="net40" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="Ranta.Metro.Net40\bin\Release\Ranta.Metro.dll" target="lib\net40" />
+    <file src="Ranta.Metro.Net40\bin\Release\Ranta.Metro.xml" target="lib\net40" />
+    <file src="Ranta.Metro.Net45\bin\Release\Ranta.Metro.dll" target="lib\net45" />
+    <file src="Ranta.Metro.Net45\bin\Release\Ranta.Metro.xml" target="lib\net45" />
+  </files>
+</package>
